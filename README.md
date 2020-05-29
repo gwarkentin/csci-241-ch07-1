@@ -1,4 +1,4 @@
-#csci-241-ch07-1
+# csci-241-ch07-1
 DOS_file_time 
 
 Suppose the time field of a file directory entry uses bits 0-4 for 2-second increments, bits 5-10 for minutes, and bits 11-15 for hours (24-hour clock). Write a procedure named ShowFileTime that receives a binary file time value in the AX register and displays the time in hh:mm:ss format. For example of input 1207h, the binary 0001 0,010 000,0 0111 indicates a time of 02:16:14, in hh:mm:ss format:
